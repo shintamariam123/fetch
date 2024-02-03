@@ -1,0 +1,78 @@
+/* body {
+    background-color: #f8f9fa;
+  }
+  .container {
+    margin-top: 50px;
+  } */
+
+  body {
+    background-color: black;
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  .heading{
+    font-size: 35px;
+    margin-top: 20px;
+    color: white;
+    
+  }
+  .search-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    /* width: 100%; */
+
+
+  }
+  .search-box input{
+    width: 350px;
+    height: 48px;
+    padding-left: 15px;
+  }
+  .search-box button{
+    width: 100px;
+    height: 48px;
+    background-color: white;
+    font-size: 19px;
+    color: black;
+    margin-left: 10px;
+    
+  }
+  .search-box button:hover{
+    background-color: red;
+    color: red;
+  }
+  .search-box input:focus{
+    border: 3px solid red;
+    outline: none;
+  
+  }
+  .modal-content{
+    background-color: #141414;
+    color: white;
+  }
+  .modal-footer button{
+    background-color: red;
+    color: black;
+  }
+  .modal-footer button:hover{
+    background-color: brown;
+    color: white;
+  }
+  #moviesList{
+  padding-left: 40px;
+  padding-right: 40px;
+  
+  }
+  .card{
+    transition: transform .2s;
+    margin-top: 20px;
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }
+  
